@@ -26,7 +26,6 @@ Your question/criteria should adhere to the following:
 ## Uninstalling command
 
 ```bash
-# Install node modules
 npm uninstall fee-calculator
 ```
 
