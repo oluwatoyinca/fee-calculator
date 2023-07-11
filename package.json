@@ -1,0 +1,28 @@
+{
+  "name": "fee-calculator",
+  "version": "1.0.0",
+  "description": "A console application solution that given a tabular set of fees constructs a tree representing the hierarchy nature of the fees and then performs specific calculations to determine the total fees amount for a given node within the tree",
+  "main": "./index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "oluwatoyinca",
+  "license": "ISC",
+  "type": "module",
+  "bin": {
+    "ask": "./index.js"
+  },
+  "dependencies": {
+    "csv-parse": "^5.4.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.7",
+    "babel-jest": "^29.6.1",
+    "jest": "^29.6.1"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  }
+}
